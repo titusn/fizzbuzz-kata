@@ -30,5 +30,10 @@ class FizzBuzzTest {
     void given5ShouldReturnBuzz() {
         assertEquals("Buzz", fizzBuzz.getAnswerFor(5));
     }
+
+    @Test
+    void given6ShouldReturnFizz() {
+        assertEquals("Fizz", fizzBuzz.getAnswerFor(6));
+    }
 }
 

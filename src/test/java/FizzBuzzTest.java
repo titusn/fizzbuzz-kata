@@ -1,9 +1,11 @@
+import com.titusnachbauer.fizzbuzz.FizzBuzz;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
     @Test
-    void nothing() {
-        
+    void given1ShouldReturn1() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assertions.assertEquals("1", fizzBuzz.getAnswerFor(1));
     }
-
 }

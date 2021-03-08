@@ -2,6 +2,10 @@ package com.titusnachbauer.fizzbuzz;
 
 public class FizzBuzz {
     public String getAnswerFor(Integer i) {
-        return i.toString();
+        if (i == 3) {
+            return "Fizz";
+        } else {
+            return i.toString();
+        }
     }
 }

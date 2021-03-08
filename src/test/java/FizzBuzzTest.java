@@ -8,7 +8,6 @@ class FizzBuzzTest {
 
     @Test
     void given1ShouldReturn1() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("1", fizzBuzz.getAnswerFor(1));
     }
 

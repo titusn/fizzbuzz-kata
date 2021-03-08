@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FizzBuzzTest {
+    private FizzBuzz fizzBuzz = new FizzBuzz();
+
     @Test
     void given1ShouldReturn1() {
         FizzBuzz fizzBuzz = new FizzBuzz();
@@ -12,7 +14,7 @@ class FizzBuzzTest {
 
     @Test
     void given2ShouldReturn2() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("2", fizzBuzz.getAnswerFor(2));
     }
 }
+

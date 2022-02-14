@@ -5,6 +5,8 @@ public class FizzBuzz {
 
         if (i.equals(3)) {
             return "Fizz";
+        } else if (i.equals(5)) {
+            return "Buzz";
         }
 
         return i.toString();

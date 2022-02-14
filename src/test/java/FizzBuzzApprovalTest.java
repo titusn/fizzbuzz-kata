@@ -1,5 +1,4 @@
 import com.titusnachbauer.fizzbuzz.FizzBuzz;
-import org.approvaltests.Approvals;
 import org.junit.jupiter.api.Test;
 
 class FizzBuzzApprovalTest {

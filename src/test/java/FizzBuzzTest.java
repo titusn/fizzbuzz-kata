@@ -1,6 +1,5 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.titusnachbauer.fizzbuzz.FizzBuzz;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class FizzBuzzTest {
@@ -26,5 +25,7 @@ class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("Fizz", fizzBuzz.getAnswerFor(3));
     }
+
+
 }
 

@@ -20,10 +20,9 @@ class FizzBuzzTest {
         assertEquals("2", fizzBuzz.get(2));
     }
 
-    // @Test
-    // void FizzBuzz3ShouldReturn3(){
-    //     FizzBuzz fizzBuzz = new FizzBuzz();
-    //     assertEquals("3", actual);
-    // }
+    @Test
+    void FizzBuzz3ShouldReturn3(){
+        assertEquals("Fizz", fizzBuzz.get(3));
+    }
 }
 

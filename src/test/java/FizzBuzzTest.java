@@ -22,12 +22,13 @@ class FizzBuzzTest {
     }
 
     @Test
-    void FizzBuzz3ShouldReturn3() {
+    void FizzBuzz3ShouldReturnFizz() {
         assertEquals("Fizz", fizzBuzz.get(3));
     }
 
     @Test
-    void FizzBuzz5ShouldReturn5() {
+    void FizzBuzz5ShouldReturnBuzz
+            () {
         assertEquals("Buzz", fizzBuzz.get(5));
     }
 

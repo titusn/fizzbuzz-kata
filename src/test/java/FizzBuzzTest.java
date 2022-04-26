@@ -27,8 +27,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    void FizzBuzz5ShouldReturnBuzz
-            () {
+    void FizzBuzz5ShouldReturnBuzz() {
         assertEquals("Buzz", fizzBuzz.get(5));
     }
 

@@ -8,7 +8,8 @@ class FizzBuzzTest {
     FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Test
-    void NothingTest() {}
+    void NothingTest() {
+    }
 
     @Test
     void FizzBuzz1ShouldReturn1() {
@@ -21,8 +22,18 @@ class FizzBuzzTest {
     }
 
     @Test
-    void FizzBuzz3ShouldReturn3(){
+    void FizzBuzz3ShouldReturn3() {
         assertEquals("Fizz", fizzBuzz.get(3));
+    }
+
+    @Test
+    void FizzBuzz5ShouldReturn5() {
+        assertEquals("Buzz", fizzBuzz.get(5));
+    }
+
+    @Test
+    void FizzBuzz6ShouldReturnFizz() {
+        assertEquals("Fizz", fizzBuzz.get(6));
     }
 }
 

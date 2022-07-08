@@ -1,7 +1,10 @@
 package com.titusnachbauer.fizzbuzz;
 
 public class FizzBuzz {
-    public static Object getResult(int i) {
-        return i;
+    public static String getResult(int i) {
+        if (i == 1) {
+            return Integer.valueOf(i).toString();
+        }
+        return "Fizz";
     }
 }

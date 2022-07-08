@@ -1,14 +1,17 @@
 package com.titusnachbauer.fizzbuzz;
 
 public class FizzBuzz {
-    public String getAnswerFor(Integer i) {
-
-        if (i.equals(3)) {
-            return "Fizz";
-        } else if (i.equals(5)) {
-            return "Buzz";
+    public String input(int i) {
+        String str = "";
+        if (i % 3 == 0) {
+            str = str.concat("Fizz");
         }
-
-        return i.toString();
+        if (i % 5 == 0) {
+            str = str.concat("Buzz");
+        }
+        if (str.equals("")) {
+            str = str.concat(Integer.toString(i));
+        }
+        return str;
     }
 }

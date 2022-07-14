@@ -1,14 +1,21 @@
 package com.titusnachbauer.fizzbuzz;
 
 public class FizzBuzz {
-    public static String getFizzBuzzList() {
+    public String getFizzBuzzList() {
 
         StringBuilder listOfNumbers = new StringBuilder();
-        for(int number = 1; number <= 100; number++) {
+        for (int number = 1; number <= 100; number++) {
             listOfNumbers.append("\n");
-            listOfNumbers.append(number);
+            listOfNumbers.append(getAnswerFor(number));
         }
         return listOfNumbers.toString();
 
+    }
+
+    public String getAnswerFor(int i) {
+        if (i == 3) {
+            return "Fizz";
+        }
+        return String.valueOf(i);
     }
 }

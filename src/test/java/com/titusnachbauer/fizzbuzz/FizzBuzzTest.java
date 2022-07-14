@@ -9,10 +9,18 @@ public class FizzBuzzTest {
     private final String[] list = FizzBuzz.getFizzBuzzList().split("\n");
     @Test
     void GivenFizzBuzzListWhenRetrievingFirstItemThenExpectOne() {
-        assertEquals("1", list[0]);
+        assertEquals("1", list[1]);
     }
     @Test
     void GivenFizzBuzzListWhenRetrievingSecondItemThenExpectTwo() {
-        assertEquals("2", list[1]);
+        assertEquals("2", list[2]);
+    }
+    @Test
+    void GivenFizzBuzzListWhenRetrieving99thItemThenExpect99() {
+        assertEquals("99", list[99]);
+    }
+    @Test
+    void GivenFizzBuzzListWhenRetrieving100thItemThenExpect100() {
+        assertEquals("100", list[100]);
     }
 }

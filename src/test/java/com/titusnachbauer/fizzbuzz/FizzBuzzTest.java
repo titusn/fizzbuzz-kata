@@ -21,7 +21,7 @@ public class FizzBuzzTest {
 
     @Test
     void GivenFizzBuzzListWhenRetrieving99thItemThenExpect99() {
-        assertEquals("99", list[99]);
+        assertEquals("Fizz", list[99]);
     }
 
     @Test
@@ -32,5 +32,10 @@ public class FizzBuzzTest {
     @Test
     void GivenNumberWhen3ThenFizz() {
         assertEquals("Fizz", fizzBuzz.getAnswerFor(3));
+    }
+
+    @Test
+    void GivenNumerWhen6ThenFizz() {
+        assertEquals("Fizz", fizzBuzz.getAnswerFor(6));
     }
 }
